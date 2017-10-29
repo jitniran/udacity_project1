@@ -6,14 +6,28 @@
 }
 
 .logo-img {
-    background: url(../images/logo.png) no-repeat;
+    background: url(../imgs/logo.png) no-repeat;
     min-width:  129px;
     min-height: 39px;
+}
+.card-image.mdl-card {
+    width: auto;
+    height: 256px;
+    background: url(../imgs/card.jpg) center / cover;
+}
+.card-content{
+    height: 256px;
+}
+.layout-width {
+    max-width: 900px;
+}
+.intro {
+    margin:5%;
 }
 
 @media screen and (max-width: 600px) and (min-width: 300px) {
     .logo-img {
-        background: url(../images/logo2.png) no-repeat; 
+        background: url(../imgs/logo2.png) no-repeat; 
         background-size: contain;
         min-width:  96px;
         min-height: 29px;
