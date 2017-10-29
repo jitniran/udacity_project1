@@ -24,6 +24,10 @@
 .intro {
     margin:5%;
 }
+img.article-image {
+    width: 100%;
+    height: auto;
+}
 
 @media screen and (max-width: 600px) and (min-width: 300px) {
     .logo-img {
