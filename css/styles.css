@@ -1,0 +1,22 @@
+
+.mdl-layout__drawer-button {
+    display: inline-flex;
+    vertical-align: middle !important;
+    align-items: center;
+}
+
+.logo-img {
+    background: url(../images/logo.png) no-repeat;
+    min-width:  129px;
+    min-height: 39px;
+}
+
+@media screen and (max-width: 600px) and (min-width: 300px) {
+    .logo-img {
+        background: url(../images/logo2.png) no-repeat; 
+        background-size: contain;
+        min-width:  96px;
+        min-height: 29px;
+    }
+
+}
